@@ -1,0 +1,45 @@
+RELEASE NOTES
+
+    File       : RELEASENOTES.txt
+    Time-stamp : 2014-26-05T04:20 Juho Rautio
+    Description: Release notes for release 4.
+
+VIDEO PRESENTATION ABOUT THE RELEASE
+    
+    URL: https://vimeo.com/96454482
+    PW: android
+
+GENERAL INFO
+
+    Fourth and final release of the program. Implemented dropbox synchronization and fixed a lot of bugs.
+
+PLANNED FEATURES FROM PRODUCT BACKLOG
+
+    Following features where planned for this release:
+
+    - User can define the tournament rules from settings.
+    - User can export results to a html-file.
+    - Dropbox synchronization.
+    - Logic for creating tournaments with even number of players
+    (At the moment works properly only for odd number of players)
+    - Deleting tournaments and matches from the database.
+    - Major UI renovation and fixes.
+    - Javadoc code commenting and bug fixes
+
+IMPLEMENTED FEATURES
+
+
+    - User can export results to a html-file.
+    - Dropbox synchronization.
+    - Logic for creating tournaments with even number of players
+    (At the moment works properly only for odd number of players)
+    - Deleting tournaments and matches from the database.
+    - Major UI renovation and fixes.
+    - Javadoc code commenting and bug fixes
+
+FEATURES NOT IMPLEMENTED
+
+    - User can define the tournament rules from settings.
+
+
+End of file.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TH-Results</string>
+    <string name="createTournament">Create a new tournament</string>
+    <string name="title_activity_loader">LoaderActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="standing">S</string>
+    <string name="names">Name</string>
+    <string name="games">G</string>
+    <string name="wins">W</string>
+    <string name="draws">D</string>
+    <string name="losses">L</string>
+    <string name="goals">+/-</string>
+    <string name="points">P</string>
+    <string name="standings">Tournament standings</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:checkMark="?android:attr/listChoiceIndicatorSingle"
+    android:padding="6dip">
+    <!-- Tournament name title -->
+    <TextView
+        android:id="@+id/toptext"
+
+        android:layout_width="wrap_content"
+        android:layout_height="26dip"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        />
+
+    <!-- Tournament name -->
+    <TextView
+        android:id="@+id/toptextdata"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/toptext"
+
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        />
+
+    <!-- Participants title -->
+    <TextView
+        android:id="@+id/middletext"
+
+        android:layout_width="wrap_content"
+        android:layout_height="26dip"
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/toptext"
+
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        />
+
+    <!-- Participants -->
+    <TextView
+        android:id="@+id/middletextdata"
+
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/toptext"
+        android:layout_toRightOf="@id/middletext"
+
+        android:gravity="center_vertical"
+        />
+
+    <!-- Date title -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/middletext"
+
+        android:textStyle="bold"
+        android:id="@+id/bottomtext"
+        android:singleLine="false"
+
+        />
+    <!-- Date -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/bottomtext"
+
+
+        android:id="@+id/desctext"
+        android:singleLine="false"
+
+        />
+</RelativeLayout>

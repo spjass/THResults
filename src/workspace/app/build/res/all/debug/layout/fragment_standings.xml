@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgray"
+    >
+
+    <TableLayout
+        android:id="@+id/standingsTableLayoutHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/darkgray"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/standings"
+                android:layout_marginBottom="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+            <TextView
+                android:id="@+id/standingTextView"
+                android:layout_height="68px"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/white"
+                android:text="@string/standing"/>
+            <TextView
+                android:id="@+id/playerNameTextView"
+                android:layout_height="68px"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/white"
+                android:text="Name"/>
+            <TextView
+                android:id="@+id/gamesTextView"
+                android:layout_height="68px"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/white"
+                android:text="@string/games"/>
+            <TextView
+                android:id="@+id/winsTextView"
+                android:layout_height="68px"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/white"
+                android:text="@string/wins"/>
+            <TextView
+                android:id="@+id/drawsTextView"
+                android:layout_height="68px"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/white"
+                android:text="@string/draws"/>
+            <TextView
+                android:id="@+id/lossesTextView"
+                android:layout_height="68px"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/white"
+                android:text="@string/losses"/>
+            <TextView
+                android:id="@+id/goalsTextView"
+                android:layout_height="68px"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/white"
+                android:text="@string/goals"/>
+            <TextView
+                android:id="@+id/pointsTextView"
+                android:layout_height="68px"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/white"
+                android:text="@string/points"/>
+        </TableRow>
+
+
+
+        <TableLayout
+            android:id="@+id/standingsTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/darkgray">
+            </TableLayout>
+
+    </TableLayout>
+
+</ScrollView>
+<!-- From: file:/C:/workspace/app/src/main/res/layout/fragment_standings.xml -->
